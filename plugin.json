@@ -1,0 +1,25 @@
+{
+  "slug": "VGLabs",
+  "name": "VGLabs",
+  "version": "2.0.0",
+  "license": "GPL-3.0-or-later",
+  "brand": "VGLabs",
+  "author": "Victoria Grace Landgraf",
+  "authorEmail": "",
+  "authorUrl": "",
+  "pluginUrl": "https://github.com/landgrvi/VGLabs-VCVRack",
+  "manualUrl": "",
+  "sourceUrl": "https://github.com/landgrvi/VGLabs-VCVRack",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "TwoWayExpander",
+      "name": "Two-Way Expander Demo",
+      "description": "Demonstration of bi-directional expander communication",
+      "tags": [
+		"Expander"
+      ]
+    }
+  ]
+}
