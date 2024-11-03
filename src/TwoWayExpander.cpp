@@ -138,7 +138,7 @@ struct TwoWayExpanderWidget : ModuleWidget {
 				svgPanel->fb->dirty = true;
 			}
 			// Update labels if required
-			if (labelID->text == "") labelID->text = string::f("%016li",module->id);
+			if (labelID->text == "") labelID->text = string::f("%016" PRId64,module->id);
 			if (oldMe != module->numMe) {
 				labelMe->text = string::f("%u",module->numMe);
 				oldMe = module->numMe;
